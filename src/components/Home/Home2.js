@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
+// import myImg from "../../Assets/avatar.svg";
+// import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
+  // AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -27,9 +27,9 @@ function Home2() {
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
-              {/* <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEDXJKnYe9QCw/profile-displayphoto-shrink_200_200/0/1647835085087?e=1655942400&v=beta&t=Adhs1TT9S37ppv1utC8gSgZTVQcbJoVl9fiFiVl8im4" className="img-fluid" alt="avatar" /> */}
-            </Tilt>
+            {/* <Tilt>
+              <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEDXJKnYe9QCw/profile-displayphoto-shrink_200_200/0/1647835085087?e=1655942400&v=beta&t=Adhs1TT9S37ppv1utC8gSgZTVQcbJoVl9fiFiVl8im4" className="img-fluid" alt="avatar" />
+            </Tilt> */}
           </Col>
         </Row>
         <Row>
